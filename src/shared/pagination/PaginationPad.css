@@ -1,0 +1,28 @@
+.pagination-pad {
+
+}
+
+.pagination-pad__text {
+  margin: 0px 10px;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.pagination-pad__button {
+  padding: 0px;
+  font-size: 18px;
+  margin: 0px 5px;
+  display: inline-block;
+  transform: scale(0.75);
+  border: none;
+}
+
+.pagination-pad__button:hover {
+  color: #212121;
+}
+
+.pagination-pad__button--disabled {
+  color: lightgray;
+  cursor: not-allowed;
+  pointer-events: none;
+}

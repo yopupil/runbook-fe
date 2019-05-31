@@ -1,0 +1,31 @@
+.circle-text {
+  border-radius: 50%;
+  color: #ffffff;
+  border: 1px solid #212121;
+  background: #212121;
+  display: inline-block;
+  text-align: center;
+  user-select: none;
+  font-family: work-sans-regular !important;
+}
+
+.circle-text--small {
+  width: 25px;
+  height: 25px;
+  font-size: 12px;
+  line-height: 25px;
+}
+
+.circle-text--medium {
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.circle-text--large {
+  width: 35px;
+  height: 35px;
+  font-size: 22px;
+  line-height: 38px;
+}

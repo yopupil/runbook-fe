@@ -1,0 +1,73 @@
+.contextual-search {
+  background-color: #475054;
+  border-radius: 4px;
+  position: relative;
+  padding: 8px;
+  color: #ffffff;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.contextual-search__search-icon {
+  margin-left: 12px;
+  font-size: 20px;
+}
+
+.contextual-search__input {
+  background: none;
+  border: none;
+  outline: none;
+  margin: 0;
+  font-size: 14px;
+  width: 65%;
+  margin-left: 10px;
+}
+
+.contextual-search__label {
+  display: inline-block;
+  padding: 0px 8px;
+  border-radius: 14px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.contextual-search__filter-trigger {
+  float: right;
+  margin-right: 5px;
+  font-size: 24px !important;
+  cursor: pointer;
+}
+
+
+.contextual-search__filters {
+  position: absolute;
+  z-index: 10;
+  background: #fff;
+  border: 1px solid #ececec;
+  width: 100%;
+  top: 40px;
+  margin-left: -9px;
+  box-shadow: 0px 1px 2px rgba(0,0,0,0.1);
+}
+
+.contextual-search__button {
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background: #F9AA33;
+  color: #ffffff;
+}
+
+.contextual-search__close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  color: gray;
+  cursor: pointer;
+}
+
+.contextual-search__close-button {
+  color: #212121;
+}

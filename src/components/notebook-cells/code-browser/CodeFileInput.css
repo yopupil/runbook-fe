@@ -1,0 +1,17 @@
+.code-file-title {
+  width: 80%;
+  display: inline-block;
+}
+
+.code-file-title__input {
+  border: none;
+  border-bottom: 1px solid #fafafa;
+  margin: 0px;
+  outline: none;
+  width: 100%;
+}
+
+
+.code-file-title__input:focus {
+  border-color: #308cff;
+}

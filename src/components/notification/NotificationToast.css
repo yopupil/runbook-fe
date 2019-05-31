@@ -1,0 +1,41 @@
+.notification-toast {
+  position: fixed;
+  display: block;
+  top: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fdfdfd;
+  padding: 5px;
+  border: 2px solid #212121;
+  font-size: 12px;
+  font-family: work-sans-light;
+  text-transform: initial;
+  z-index: 99999;
+}
+
+.notification-hidden {
+  display: none;
+}
+
+.notification-success {
+  background: #27b327;
+  border-color: #0f960f;
+  color: #ffffff;
+}
+
+.notification-progress {
+  background: #30a0ff;
+  border-color: #0d65d2;
+  color: #ffffff;
+}
+
+.notification-warning {
+  background: #ffffa8;
+  border-color: #ffd25b;
+}
+
+.notification-error {
+  background: #ff8444;
+  border-color: #e86a47;
+  color: #ffffff;
+}

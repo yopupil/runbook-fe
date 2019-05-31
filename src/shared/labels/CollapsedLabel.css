@@ -1,0 +1,16 @@
+.collapsed-label {
+  display: inline-block;
+  margin-bottom: .5rem;
+  font-weight: 600;
+  margin: 0px 5px;
+  padding: 1px 4px;
+  border-radius: 5px;
+  color: #06f;
+  font-size: 14px;
+  border: 1px solid transparent;
+}
+
+.collapsed-label:hover {
+  background: #f9f9f9;
+  border: 1px solid #e6e6e6;
+}

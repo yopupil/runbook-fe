@@ -1,0 +1,34 @@
+.actions-dropdown {
+  position: relative;
+  height: 24px;
+  line-height: 28px;
+}
+
+.actions-dropdown__icon {
+  color: gray;
+  cursor: pointer;
+}
+
+.actions-dropdown__list {
+  position: absolute;
+  list-style: none;
+  border: 1px solid #ecececec;
+  padding: 5px 10px;
+  white-space: nowrap;
+  font-size: 12px;
+  background: #ffffff;
+  z-index: 6;
+  right: 0px;
+  text-align: left;
+}
+
+
+.actions-dropdown__list-item {
+  margin: 5px 0px;
+  font-family: work-sans-medium;
+  cursor: pointer;
+}
+
+.actions-dropdown__list-item:hover {
+  color: orange;
+}

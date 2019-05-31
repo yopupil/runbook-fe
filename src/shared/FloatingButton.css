@@ -1,0 +1,100 @@
+.floating-button {
+  cursor: pointer;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 47px;
+  height: 46px;
+  z-index: 99;
+  user-select: none;
+}
+
+.floating-button__trigger {
+  border-radius: 50%;
+  width: inherit;
+  height: inherit;
+  font-family: monospace;
+  background: #212121;
+  font-size: 25px;
+  padding: 0px 0px;
+  font-weight: normal;
+  line-height: 0px;
+  width: inherit;
+  text-align: center;
+  margin: 0px;
+  color: #ffffff !important;
+}
+
+.floating-button__trigger > .zmdi {
+  position: absolute;
+  left: 13px;
+  top: 12px;
+  width: 22px;
+  animation-duration: 0.3s !important;
+}
+
+.floating-button__trigger:hover {
+  color: #ffffff;
+  background: orange;
+  border-color: orange;
+  box-shadow: 0px 2px 3px rgba(0,0,0,0.1);
+}
+
+.floating-button__list {
+  position: absolute;
+  bottom: 20px;
+  list-style: none;
+  min-width: 500px;
+  right: 0px;
+}
+
+.floating-button__list-item {
+  text-align: right;
+  padding: 5px 5px;
+}
+
+.floating-button__list-item-icon {
+  border-radius: 50%;
+  background: orange;
+  border: none;
+  height: 40px;
+  width: 40px;
+  line-height: 40px !important;
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px !important;
+  box-shadow: 0px 2px 4px rgba(128, 128, 128, 0.2);
+}
+
+.floating-button__list-item-label {
+  font-weight: normal;
+  display: inline-block;
+  margin-left: 8px;
+  margin-bottom: 0px;
+  margin-right: 10px;
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  box-shadow: 0px 1px 1px rgba(128,128,128,0.1);
+  padding: 3px 10px;
+  color: gray;
+  font-size: 14px;
+  text-align: right;
+  cursor: pointer;
+  white-space: nowrap;
+  position: relative;
+  top: -2px;
+}
+
+.floating-button__list-item-label:hover {
+  color: #212121;
+  box-shadow: 0px 1px 1px rgba(128,128,128,0.3);
+}
+
+.floating-button__list-item-label--disabled {
+  background: #ececec;
+  color: grey;
+  border-color: gray;
+}
+.floating-button__list-item-label > .zmdi {
+  margin: 0px 5px;
+}

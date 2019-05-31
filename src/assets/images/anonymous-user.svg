@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: none;">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Untitled</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="17.5" cy="17.5" r="17.5"></circle>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Avatar">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#BEC9D7" xlink:href="#path-1"></use>
+            <g id="Group-2" mask="url(#mask-2)" fill-rule="nonzero">
+                <g transform="translate(2.450000, 5.950000)" id="Shape">
+                    <path d="M15.05,17.85 C4.67342105,17.85 0,21.15 0,28.575 L0,29.4 L30.1,29.4 L30.1,28.575 C30.1,25.5225 29.3078947,23.2125 27.6444737,21.48 C25.2681579,19.005 21.3076316,17.85 15.05,17.85 Z" fill="url(#linearGradient-3)"></path>
+                    <path d="M15.05,16.1 C19.73,16.1 21.35,10.304 21.35,7.728 C21.35,4.025 19.73,0 15.05,0 C10.37,0 8.75,3.9445 8.75,7.728 C8.75,10.304 10.37,16.1 15.05,16.1 Z" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

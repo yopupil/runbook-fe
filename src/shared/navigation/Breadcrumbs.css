@@ -1,0 +1,21 @@
+.bread-crumbs {
+  margin: 10px 0px;
+}
+
+.bread-crumbs__link {
+  font-family: work-sans-medium;
+  color: #212121 !important;
+  font-size: 12px;
+  margin: 0px 5px;
+  text-decoration: none;
+}
+
+.bread-crumbs__link::after {
+  display: inline-block;
+  margin-left: 10px;
+  content: '>';
+}
+
+.bread-crumbs__link:last-child::after {
+  content: '';
+}

@@ -1,0 +1,265 @@
+html, body {
+   height: 100%;
+   font-family: work-sans-regular,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important;
+}
+
+.page {
+  height: 100%;
+}
+
+.page__wrapper {
+  background: #ffffff;
+  min-height: 100%;
+  margin-bottom: -20px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.table-row {
+  width: 100%;
+}
+
+.table-column {
+  vertical-align: middle;
+}
+
+.page__header {
+  background: #ffffff;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 11;
+}
+
+.page__floating-link {
+  text-decoration: none;
+  color: #212121;
+  float: right;
+}
+
+.page__floating-link > span {
+  margin-left: 10px;
+}
+
+.page__floating-link > i {
+  font-size: 28px !important;
+  vertical-align: bottom;
+}
+
+.page__floating-link:hover {
+  color: #4285F4;
+}
+
+.page__header h2 {
+  padding: 20px 0px;
+  margin: 0px;
+  text-transform: capitalize;
+  font-size: 20px;
+  color: #3c43ab;
+}
+
+.page__header-action-panel {
+  color: #383838;
+  font-size: 17px;
+  text-align: center;
+  float: right;
+  font-weight: 500;
+  position: absolute;
+  top: 13px;
+  right: 10px;
+}
+
+.page__header-action-panel > button {
+  margin-left: 10px;
+}
+
+.page__content {
+  margin-top: 70px;
+  padding: 0px 10%;
+  padding-top: 20px;
+}
+
+.page__footer {
+  text-align: center;
+  font-size: 12px;
+  padding: 5px 0px;
+}
+
+.page__footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.page__footer li {
+  display: inline-block;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.page__footer li:hover {
+  color: #3c43ab;
+}
+
+/* Alert css */
+.alert {
+  text-align: center;
+  height: 30px;
+  padding: 0px;
+  font-size: 13px;
+  line-height: 2em;
+  margin: 20px;
+  position: fixed;
+  top: 25px;
+  width: 100%;
+}
+
+.alert-danger {
+  color: #f50000;
+}
+
+/*
+  Header styles (shared by backend pages and fe)
+ */
+
+.app-header {
+  background-color: #ffffff;
+  display: table;
+  height: 60px;
+  padding: 0px 2% 0px 2%;
+  width: 96%;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.app-header__home-link {
+  text-decoration: none;
+  display: inline-block;
+  left: 0px;
+  height: 100%;
+  padding: 5px 0px;
+}
+
+.app-header__sub-label {
+  color: #212121;
+  font-size: 18px;
+  padding-top: 0;
+  margin-left: 8px;
+  display: inline-block;
+  font-family: work-sans-light;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+.app-header__left {
+  display: table-cell;
+  width: 15%;
+  vertical-align: middle;
+  height: 60px;
+}
+
+.app-header__center {
+  width: 70%;
+  display: table-cell;
+  vertical-align: middle;
+  height: 60px;
+}
+
+.app-header__right {
+  text-align: right;
+  display: table-cell;
+  width: 15%;
+  vertical-align: middle;
+  height: 60px;
+}
+
+.app-header__right .user-autocomplete {
+  display: inline-block;
+  margin: 0px 10px;
+  vertical-align: middle;
+}
+
+.app-header__right > img {
+  margin: 0px 10px;
+  vertical-align: middle;
+}
+
+/* For devices smaller than 1280px */
+@media (max-width: 1280px) {
+  .app-header__left {
+    width: 20%;
+  }
+  .app-header__center {
+    width: 65%;
+  }
+  .app-header__right {
+    width: 15%;
+  }
+}
+
+/*
+  Profile dropdown
+ */
+
+.profile-dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.profile-dropdown__list {
+  background: #ffffff;
+  border: 1px solid #f1f1f1;
+  box-shadow: 0px 1px 3px rgba(148, 146, 146, 0.2);
+  display: none;
+  position: absolute;
+  right: 0px;
+  top: 40px;
+  text-align: left;
+  list-style: none;
+  padding: 15px;
+  width: 250px;
+  z-index: 20;
+}
+
+.profile-dropdown__label {
+  font-weight: bold;
+}
+
+.profile-dropdown__value {
+  color: grey;
+}
+
+.profile-dropdown__value > a {
+  margin-left: 10px;
+  color: gray;
+}
+
+.profile-dropdown__value > a:hover {
+  color: #4285F4;
+}
+
+.profile-dropdown__list--open {
+  display: block;
+}
+
+.profile-dropdown__button {
+  display: block;
+  margin: 0 auto;
+  color: white;
+  height: 36px;
+  border-radius: 4px;
+  background-color: #F9AA33;
+  text-align: center;
+}
+
+.clear-search-button {
+  float: right;
+  line-height: 45px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.clear-search-button:hover {
+  font-weight: 600;
+}

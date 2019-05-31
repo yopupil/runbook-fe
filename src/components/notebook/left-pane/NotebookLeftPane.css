@@ -1,0 +1,42 @@
+.notebook-left-pane {
+  position: relative;
+}
+
+.notebook-left-pane__cell-number {
+  font-size: 14px;
+  color: #06f;
+}
+
+.notebook-left-pane__cell-number::before {
+  content: '[';
+}
+
+.notebook-left-pane__cell-number::after {
+  content: ']';
+}
+
+.notebook-pane-action-item {
+  cursor: pointer;
+  font-size: 20px !important;
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+.notebook-pane-action-item:hover, .notebook-pane-action-item--toggled {
+  color: #06f;
+}
+
+.notebook-left-pane .notebook__add-cell-line {
+  visibility: hidden;
+  margin: 5px 0px;
+}
+
+
+.notebook-left-pane:hover .notebook__add-cell-line {
+  visibility: visible;
+}
+
+
+.notebook-left-pane__hr {
+  margin: 6px 5px;
+}

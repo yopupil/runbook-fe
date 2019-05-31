@@ -1,0 +1,43 @@
+.selectable-circle-text {
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  position: relative;
+}
+
+.selectable-circle-text--selecting {
+  border: 1px dashed #424242;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.selectable-circle-text--selected {
+  border-style: solid;
+}
+
+.selectable-circle-text > .checkbox-field {
+  display: inline-block;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 7px;
+  top: 7px;
+}
+
+.selectable-circle-text > .checkbox-label {
+  margin: 5px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border-color: gray;
+  transition: all 0.3s ease;
+}
+
+.selectable-circle-text > .checkbox-label--checked {
+  border-color: transparent;
+}
+
+.selectable-circle-text > .checkbox-label::after {
+  transform: rotate(-45deg)translateX(0px)scale(0.8);
+}

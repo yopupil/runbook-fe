@@ -1,0 +1,19 @@
+.file-tree {
+  margin-left: 15px;
+}
+
+.file-tree__expand-trigger {
+  font-size: 25px !important;
+  position: relative;
+  top: 5px;
+  left: -2px;
+  line-height: 16px !important;
+}
+
+.file-tree__expandable-folder-view-label, .file-tree__file-name {
+  font-size: 12px;
+}
+
+.file-tree__expandable-folder-view {
+  line-height: 16px;
+}

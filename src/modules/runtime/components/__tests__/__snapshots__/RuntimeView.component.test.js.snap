@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RuntimeView.component snapshots 1`] = `
+<div
+  className="runtime-view"
+>
+  <label
+    className="runtime-view__title"
+  >
+    py3
+  </label>
+  <i
+    className="zmdi zmdi-circle-o runtime-view__status runtime-view__status--pending"
+  />
+  <pre
+    className="runtime-view__logs"
+  >
+    
+  </pre>
+</div>
+`;
+
+exports[`RuntimeView.component snapshots 2`] = `
+<div
+  className="runtime-view"
+>
+  <label
+    className="runtime-view__title"
+  >
+    py3
+  </label>
+  <i
+    className="zmdi zmdi-circle-o runtime-view__status runtime-view__status--error"
+  />
+  <pre
+    className="runtime-view__logs"
+  >
+    hello
+    world
+  </pre>
+</div>
+`;
+
+exports[`RuntimeView.component snapshots 3`] = `
+<div
+  className="runtime-view"
+>
+  <label
+    className="runtime-view__title"
+  >
+    py3
+  </label>
+  <i
+    className="zmdi zmdi-circle-o runtime-view__status runtime-view__status--pending"
+  />
+  <pre
+    className="runtime-view__logs"
+  >
+    hello
+    world
+  </pre>
+</div>
+`;

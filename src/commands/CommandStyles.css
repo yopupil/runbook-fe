@@ -1,0 +1,32 @@
+.command-error-message {
+  color: red;
+}
+
+.command-log-message-list {
+  padding-left: 0px;
+  background: #ffffff;
+  color: #212121;
+  padding: 15px;
+  border: 1px solid #e2e2e2;
+  list-style: none;
+  max-height: 200px;
+  overflow-y: auto;
+  margin: -1px 0px;
+}
+
+.command-log-message {
+  font-family: monospace;
+  margin: 0px;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.command-kernel-title {
+  margin: -1px 0px;
+  cursor: pointer;
+}
+
+.command-kernel-title > i {
+  font-size: 12px;
+  margin-left: 5px;
+}

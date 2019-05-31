@@ -1,0 +1,90 @@
+.notebook {
+  min-height: 500px;
+}
+
+.notebook__cell {
+  position: relative;
+}
+
+.notebook__cell-number {
+  padding-left: 10px;
+  border-left: 3px solid orange;
+}
+
+.notebook-cell-container {
+  padding: 15px 25px;
+}
+
+.notebook-cell-container__row {
+  width: 100%;
+  position: relative;
+}
+
+.notebook-cell-container__left-pane {
+  text-align: center;
+  position: absolute;
+  left: -1%;
+  top: -75px;
+  width: 6%;
+  min-height: 100px;
+}
+
+.notebook-cell-container__cell {
+  position: relative;
+  margin-left: 5%;
+  width: 95%;
+}
+
+.notebook__run-button {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  cursor: pointer;
+  color: #63a1ff;
+  font-size: 16px;
+}
+
+.notebook-cell {
+  background: #f7f8fa;
+  border: 1px solid transparent;
+}
+
+.notebook-cell:hover {
+  border: 1px solid #63a1ff;
+}
+
+
+.notebook-cell-input-wrapper--collapsed {
+  height: 0px;
+  overflow: hidden;
+}
+
+.notebook-cell-input-wrapper--collapsed .notebook__run-button {
+  display: none;
+}
+
+.notebook-cell-input-wrapper--hidden {
+  display: none;
+}
+
+.notebook-cell-input-wrapper--read-only {
+  pointer-events: none !important;
+}
+
+.notebook-code-cell-output {
+  padding: 15px;
+  border: 1px solid #ececec;
+}
+
+.notebook-code-cell-output pre {
+  margin: 0px;
+  font-size: 12px;
+  width: 100%;
+  overflow-x: unset;
+  white-space: pre-line;
+}
+
+.notebook-cell-output-wrapper {
+  width: 95%;
+  margin-left: 5%;
+}

@@ -1,0 +1,126 @@
+html, body, #root {
+  height: 100%;
+}
+
+/* https://github.com/facebook/draft-js/issues/304 */
+.DraftEditor-root {
+  overflow: auto;
+}
+
+
+table {
+  margin: 20px auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  color: #4a4a4d;
+  border: 1px solid gray;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+th,
+td {
+  padding: 10px 15px;
+  vertical-align: middle;
+}
+thead {
+  background: #395870;
+  background: linear-gradient(#49708f, #293f50);
+  color: #fff;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+th:first-child {
+  border-top-left-radius: 5px;
+  text-align: left;
+}
+th:last-child {
+  border-top-right-radius: 5px;
+}
+td {
+  border-bottom: 1px solid #cecfd5;
+  border-right: 1px solid #cecfd5;
+  min-width: 100px;
+  vertical-align: middle;
+}
+td:first-child {
+  border-left: 1px solid #cecfd5;
+}
+
+td > p {
+  margin: 0px !important;
+}
+
+pre {
+  font-size: 12px;
+}
+
+.book-title {
+  color: #395870;
+  display: block;
+}
+.text-offset {
+  color: #7c7c80;
+  font-size: 12px;
+}
+.item-stock,
+.item-qty {
+  text-align: center;
+}
+.item-price {
+  text-align: right;
+}
+.item-multiple {
+  display: block;
+}
+tfoot {
+  text-align: right;
+}
+tfoot tr:last-child {
+  background: #f0f0f2;
+  color: #395870;
+  font-weight: bold;
+}
+tfoot tr:last-child td:first-child {
+  border-bottom-left-radius: 5px;
+}
+tfoot tr:last-child td:last-child {
+  border-bottom-right-radius: 5px;
+}
+
+
+/* Gh flavored markdown */
+
+.markdown-body {
+  box-sizing: border-box;
+  min-width: 200px;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  .markdown-body {
+    padding: 15px;
+  }
+}
+
+
+.triangle-top {
+  width: 0;
+  height: 0;
+  border-left: 22px solid transparent;
+  border-right: 22px solid transparent;
+  border-bottom: 22px solid black;
+  position: relative;
+}
+
+.triangle-top:after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 21px solid transparent;
+  border-right: 21px solid transparent;
+  border-bottom: 21px solid #dddddd;
+  position: absolute;
+  top: -21px;
+  left: 1px;
+}

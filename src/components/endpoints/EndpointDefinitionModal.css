@@ -1,0 +1,73 @@
+.endpoint-definition {
+  padding: 15px 25px;
+  position: absolute;
+  background: #ffffff;
+  z-index: 10;
+  border: 1px solid #ececec;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.09);
+  min-width: 600px;
+}
+
+.endpoint-definition-summary {
+  background: #ffffff;
+  font-family: work-sans-light;
+  font-size: 12px;
+  display: inline-block;
+  line-height: 13px;
+  padding: 4px;
+  border: 1px solid #ffa700;
+  position: relative;
+  top: -3px;
+}
+
+.endpoint-definition .autocomplete-dropdown  {
+  margin: 0px;
+}
+
+.endpoint-definition__label {
+  color: #b5b5b5;
+  margin-top: 10px;
+  font-family: work-sans-regular;
+  font-weight: normal;
+}
+
+.endpoint-definition__input {
+  border: none;
+  border-bottom: 1px solid #ececec;
+  outline: none;
+  width: 100%;
+}
+
+.endpoint-definition__input:focus {
+  border-color: #308cff;
+}
+
+
+.endpoint-definition__text-area {
+  font-size: 13px;
+  width: 100%;
+}
+
+.endpoint-definition__error-message {
+  font-size: 11px;
+  color: #e40000;
+  font-family: work-sans-medium;
+  display: block;
+}
+
+
+.endpoint-definition__buttons {
+  float: right;
+}
+
+.endpoint-definition__button {
+  margin: 5px 10px;
+  font-family: work-sans-medium;
+  font-size: 13px;
+  text-transform: none;
+}
+
+.endpoint-definition__button--primary {
+  background: #1786dc;
+  color: white !important;
+}
