@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CellTypeDropdown.component snapshots 1`] = `
+<div
+  className="cell-type-dropdown"
+>
+  <label
+    className="collapsed-label"
+    onClick={[Function]}
+    style={
+      Object {
+        "color": "#e57373",
+      }
+    }
+  >
+    a
+  </label>
+</div>
+`;
+
+exports[`CellTypeDropdown.component snapshots 2`] = `
+<div
+  className="cell-type-dropdown"
+>
+  <label
+    className="collapsed-label"
+    onClick={[Function]}
+    style={
+      Object {
+        "color": "#e57373",
+      }
+    }
+  >
+    *
+  </label>
+</div>
+`;
+
+exports[`CellTypeDropdown.component snapshots 3`] = `
+<div
+  className="cell-type-dropdown"
+>
+  <label
+    className="collapsed-label"
+    onClick={[Function]}
+    style={
+      Object {
+        "color": "#4db6ac",
+      }
+    }
+  >
+    Label::a
+  </label>
+</div>
+`;
