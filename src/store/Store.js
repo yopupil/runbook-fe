@@ -10,12 +10,18 @@ if (window.localStorage) {
     // Ignore
   }
 }
-
 let store;
-if (!initialState) {
-  store = createStore(rootReducer);
+if (initialState) {
+  store = createStore(
+    rootReducer,
+    initialState,
+    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+  );
 } else {
-  store = createStore(rootReducer, initialState);
+  store = createStore(
+    rootReducer,
+    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+  );
 }
 export default store;
 
